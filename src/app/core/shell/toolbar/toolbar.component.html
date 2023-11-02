@@ -89,7 +89,7 @@
 </mat-menu>
 
 <mat-menu #adminMenu="matMenu" [overlapTrigger]="false">
-  <button mat-menu-item (click)="navigateMenu('/appusers')">{{'labels.menus.Users' | translate}}</button>
+  <button mat-menu-item (click)="navigateMenu('/users')">{{'labels.menus.Users' | translate}}</button>
   <button mat-menu-item [routerLink]="['/organization']">{{'labels.menus.Organization' | translate}}</button>
   <button mat-menu-item [routerLink]="['/system']">{{'labels.menus.System' | translate}}</button>
   <button mat-menu-item [routerLink]="['/products']">{{'labels.menus.Products' | translate}}</button>

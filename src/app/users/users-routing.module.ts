@@ -20,7 +20,7 @@ import { UserResolver } from './user.resolver';
 const routes: Routes = [
   Route.withShell([
     {
-      path: 'appusers',
+      path: 'users',
       data: { title: 'Users', breadcrumb: 'Users' },
       children: [
         {
